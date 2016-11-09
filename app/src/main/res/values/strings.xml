@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Softwareprojektt</string>
+    <string name="action_settings">Settings</string>
+    <string name="trueButton">weiter</string>
+    <string name="FalseButton">zurück</string>
+    <string name="corr_toast">Das ist richtig</string>
+    <string name="incorr_toast">Das stimmt nicht</string>
+    <string name="zutaten">zutatenauswahl</string>
+    <string name="helloWorld">hello world</string>
+    <string name="title_activity_rezepte2">Rezepte2</string>
+</resources>

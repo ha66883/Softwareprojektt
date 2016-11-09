@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.havva.softwareprojektt.Rezepte">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="57dp">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="117dp"
+        android:id="@+id/zutatensuche">
+    </LinearLayout>
+
+    <include layout="@layout/content_rezepte"
+             android:layout_height="173dp"
+             android:layout_width="match_parent"/>
+
+    <AutoCompleteTextView
+        android:layout_width="371dp"
+        android:layout_height="match_parent"
+        android:id="@+id/zutatenauswahl"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="zutaten eingeben"/>
+
+</android.support.design.widget.CoordinatorLayout>
